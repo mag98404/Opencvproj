@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 
 #Load images
-cabbage_patch = cv.imread("cabage_patch.png", cv.IMREAD_UNCHANGED)
+cabbage_patch = cv.imread("cabbage_patch.png", cv.IMREAD_UNCHANGED)
 cabbage = cv.imread("cabbage.png", cv.IMREAD_UNCHANGED)
 
 if cabbage_patch is None or cabbage is None:
